@@ -1,0 +1,23 @@
+package com.app.practicauno.practica_uno.controllers;
+
+import com.app.practicauno.practica_uno.models.Factura;
+import com.app.practicauno.practica_uno.service.BaseService;
+import com.app.practicauno.practica_uno.service.FacturaService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/factura")
+public class FacturaController extends BaseController<Factura> {
+
+    @Autowired
+    private FacturaService service;
+
+    @Override
+    protected BaseService<Factura, Integer> getService() {
+        return service;
+    }
+
+}

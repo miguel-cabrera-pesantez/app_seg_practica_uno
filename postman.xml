@@ -1,0 +1,349 @@
+{
+    "info": {
+        "name": "API PracticaUno Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Factura",
+            "item": [
+                {
+                    "name": "Crear Factura",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"campo1\": \"valor1\",\n    \"campo2\": \"valor2\"\n}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:8080/factura/crear",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "factura",
+                                "crear"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Editar Factura",
+                    "request": {
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"campo1\": \"nuevoValor1\",\n    \"campo2\": \"nuevoValor2\"\n}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:8080/factura/editar/2",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "factura",
+                                "editar",
+                                "2"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Listar Facturas",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "http://localhost:8080/factura/listar",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "factura",
+                                "listar"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Buscar Factura",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "http://localhost:8080/factura/buscar/4",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "factura",
+                                "buscar",
+                                "4"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Clasificacion",
+            "item": [
+                {
+                    "name": "Crear Clasificacion",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"campo1\": \"valor1\",\n    \"campo2\": \"valor2\"\n}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:8080/clasificacion/crear",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "clasificacion",
+                                "crear"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Editar Clasificacion",
+                    "request": {
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"campo1\": \"nuevoValor1\",\n    \"campo2\": \"nuevoValor2\"\n}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:8080/clasificacion/editar/2",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "clasificacion",
+                                "editar",
+                                "2"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Listar Clasificaciones",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "http://localhost:8080/clasificacion/listar",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "clasificacion",
+                                "listar"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Buscar Clasificacion",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "http://localhost:8080/clasificacion/buscar/4",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "clasificacion",
+                                "buscar",
+                                "4"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Competencia",
+            "item": [
+                {
+                    "name": "Crear Competencia",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"campo1\": \"valor1\",\n    \"campo2\": \"valor2\"\n}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:8080/competencia/crear",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "competencia",
+                                "crear"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Editar Competencia",
+                    "request": {
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"campo1\": \"nuevoValor1\",\n    \"campo2\": \"nuevoValor2\"\n}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:8080/competencia/editar/2",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "competencia",
+                                "editar",
+                                "2"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Listar Competencias",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "http://localhost:8080/competencia/listar",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "competencia",
+                                "listar"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Buscar Competencia",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "http://localhost:8080/competencia/buscar/4",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "competencia",
+                                "buscar",
+                                "4"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ItemFactura",
+            "item": [
+                {
+                    "name": "Crear ItemFactura",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"campo1\": \"valor1\",\n    \"campo2\": \"valor2\"\n}"
+                        },
+                        "url": {
+                            "raw": "http://localhost:8080/itemfactura/crear",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8080",
+                            "path": [
+                                "itemfactura",
+                                "crear"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Editar ItemFactura",
+                    "request": {
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"campo1\": \"nuevoValor1\",\n    \"campo2\": \"nuevoValor2\"\n}"
+                        },
+                       
